@@ -1,8 +1,18 @@
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { Home } from './pages/Home/Home';
+import { Hotel } from './pages/Hotel/Hotel';
+import { List } from './pages/List/List';
+
 function App() {
   return (
-    <div>
-      Hello world!
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element ={<Home/>}/>
+        <Route path='/list' element ={<List/>}/>
+        <Route path='/hotel/:id' element ={<Hotel/>}/>
+      </Routes>
+    </BrowserRouter>
+    
   );
 }
 
