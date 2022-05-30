@@ -43,7 +43,7 @@ export const FooterList = () => {
                 <li className="listItem">Guest Houses</li>
             </ul>
         </div>
-        <div className="fCopy">@Copyright &copy; 2014-{new Date().getFullYear()} SayGon Booking All Rights Reserved</div>
+        <div className="fCopy">@Copyright &copy; {new Date().getFullYear() - 7}-{new Date().getFullYear()} SayGon Booking All Rights Reserved</div>
     </div>
   )
 }
