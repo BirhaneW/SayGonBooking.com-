@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SayGonBooking.com-/static/css/main.be259bc0.css",
+    "main.js": "/SayGonBooking.com-/static/js/main.d070a149.js",
+    "index.html": "/SayGonBooking.com-/index.html",
+    "main.be259bc0.css.map": "/SayGonBooking.com-/static/css/main.be259bc0.css.map",
+    "main.d070a149.js.map": "/SayGonBooking.com-/static/js/main.d070a149.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be259bc0.css",
+    "static/js/main.d070a149.js"
+  ]
+}
