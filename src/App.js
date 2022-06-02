@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element ={<Home/>}/>
+        <Route path='/SayGonBooking.com-' element ={<Home/>}/>
         <Route path='/list' element ={<List/>}/>
         <Route path='/hotel/:id' element ={<Hotel/>}/>
       </Routes>
